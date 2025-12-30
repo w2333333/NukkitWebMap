@@ -1,0 +1,28 @@
+# NukkitWebMap Configuration
+
+# Web server port
+web-port: 8123
+
+# Worlds to render (add world names here)
+render-worlds:
+  - world
+
+# Scan radius (chunks from spawn)
+# 200 = 3200 blocks radius
+scan-radius: 200
+
+# Auto render interval in hours (default 24)
+# Set to 0 to disable auto render (only manual /webmap render)
+render-interval-hours: 24
+
+# Player marker update interval in seconds (default 2)
+# Higher = less lag, lower = more real-time
+marker-update-seconds: 2
+
+# Region limits (set via commands, do not edit manually)
+# regions:
+#   world:
+#     centerX: 0
+#     centerZ: 0
+#     radius: 500
+#     enabled: true
