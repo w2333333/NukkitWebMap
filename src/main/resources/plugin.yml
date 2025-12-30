@@ -1,0 +1,16 @@
+name: NukkitWebMap
+main: com.webmap.WebMapPlugin
+version: "1.1.0"
+api: ["1.0.0"]
+author: "w2333333"
+description: "Web map with real-time player tracking and in-game map walls"
+
+commands:
+  webmap:
+    description: "WebMap commands"
+    usage: "/webmap [render|wall]"
+    permission: webmap.use
+
+permissions:
+  webmap.use:
+    default: op

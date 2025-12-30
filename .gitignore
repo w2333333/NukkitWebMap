@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+gradle-*-bin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.class
+
+# Logs
+*.log
+
+# Libs folder (keep folder, ignore jars)
+libs/*.jar
+!libs/.gitkeep
